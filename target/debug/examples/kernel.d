@@ -1,0 +1,1 @@
+/home/drgomesp/src/github.com/drgomesp/fibula/target/debug/examples/kernel: /home/drgomesp/src/github.com/drgomesp/fibula/examples/kernel/main.rs /home/drgomesp/src/github.com/drgomesp/fibula/fibula_core/src/lib.rs /home/drgomesp/src/github.com/drgomesp/fibula/src/lib.rs

@@ -1,0 +1,23 @@
+[package]
+name = "fibula"
+version = "0.1.0"
+authors = ["Daniel Ribeiro <drgomesp@gmail.com>"]
+edition = "2018"
+
+[features]
+default = ["core"]
+
+core = [
+    "fibula_core"
+]
+
+[dependencies]
+fibula_core = { path = "fibula_core", optional=true }
+
+[dev-dependencies]
+log = "*"
+simplelog = "*"
+
+[[example]]
+name = "kernel"
+path = "examples/kernel/main.rs"
